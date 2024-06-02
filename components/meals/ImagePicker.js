@@ -53,6 +53,7 @@ export default function ImagePicker({label,name}) {
           accept={"image/png, image/jpeg, image/jpg"}
           id={name}
           required
+          name={name}
           ref={imageRef}
           onChange={handleImageChange}
 
